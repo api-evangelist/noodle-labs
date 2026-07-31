@@ -1,7 +1,25 @@
 aid: noodle-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/noodle-labs.png
 name: Noodle Labs
-description: Noodle Labs is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Noodle Labs is an operational consulting firm founded by Jennifer Dennard
+  and Jean Hsu that embeds experienced startup operators with early-stage teams to
+  extend their leadership. Positioned as "operators, not advisors," the firm offers
+  Strategic Operations and Engineering Leadership engagements that give founders senior
+  leadership impact without the overhead of a full-time VP hire. It is a services
+  business rather than a software or API provider; no developer portal, SDK, API,
+  or technical documentation is published. Surfaced as an a16z portfolio lead and
+  added to the API Evangelist network; the enrichment pass confirmed no API surface exists.
 url: https://raw.githubusercontent.com/api-evangelist/noodle-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +29,30 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Consulting
+- Startups
+- Leadership
+- Operations
+- Engineering Management
+- Fractional Executives
 apis: []
+common:
+- type: Website
+  url: https://www.noodlelabs.ai/
+- type: Blog
+  url: https://startupsoup.substack.com/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/noodle-labs-startup-leadership
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
